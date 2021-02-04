@@ -1,0 +1,9 @@
+Windows powershell not PS7 or core
+
+Install-Module Microsoft.Graph
+
+Connect-MSGraph
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+.\Get-DeviceManagementScripts.ps1
